@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #bff3aba9;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 35px;
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  section {
+    
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  section p {
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .screenshot {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .screenshot img {
+    max-width: 250px;
+  }
+  
+  .download-links {
+    margin-top: 30px;
+  }
+  
+  .download-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #979797;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+    
+    nav ul li {
+      margin: 0 5px;
+    }
+    
+    section {
+      padding: 40px 0;
+    }
+    
+    section h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }   
+    
+    .container {
+      padding: 20px;
+    }
+    
+    .download-links a {
+      margin-bottom: 10px;
+    }
+    
+  }
+
+@import "scss/team.scss";
+@import "scss/download.scss";
+@import "scss/about.scss";
+@import "scss/screenshots.scss";
+@import "scss/features.scss";

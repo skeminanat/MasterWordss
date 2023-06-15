@@ -1,0 +1,35 @@
+#team {
+    background-image: url("images/bg2.jpg");
+    background-size: cover;
+    background-position: center; 
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 80px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+  }
+  #team h2{
+    margin-bottom: 60px;
+    font-size: 50px;
+  }
+  .team-member {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .team-member h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    color: #f3f3f3;
+    font-size: 17px;
+  }
